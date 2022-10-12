@@ -11,13 +11,14 @@
     --ftr-color: #262627;
     --hvr-color: #1ED760;
     --txt-color: #878787;
-    --single-color:white;
+    --single-color: white;
 }
-.single-color
-{
+
+.single-color {
     color: white;
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: var(--txt-color)
@@ -26,7 +27,7 @@ a {
 a:hover {
     color: white;
     border-bottom: 1px solid #1ED760;
-    
+
 }
 
 body {
@@ -73,29 +74,41 @@ body {
 
 .sidebar .middle-section .playlist-container {
     display: none;
-    padding: 1rem ;
+    padding: 1rem;
 }
 
-.square-playlist{
+.square-playlist {
     padding-right: 6px;
     font-size: 30px;
-   
+
 }
-.ghost-side{
+
+.ghost-side {
     display: none;
 }
-.cnt-flx{
+
+.cnt-flx {
     display: flex;
     align-items: center;
 }
+
+.cnt-flx1 {
+    display: flex;
+    
+    width: 25%;
+    align-items: center;
+}
+
 .playlist-container li {
     list-style: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
 }
+
 .playlist-container ul {
-   
-    padding: 0.5rem ;
+
+    padding: 0.5rem;
 }
+
 .sidebar .bottom-section {
     flex-shrink: 0;
 
@@ -147,8 +160,13 @@ body {
     color: black;
     border-style: none;
 }
-.img1{
+
+.img1 {
     padding-left: 1rem;
+   
     display: block;
-    width:30%;
+    width: 100%;
+    height: 80px;
+    width: 80px;
+    height: 100%;
 }
