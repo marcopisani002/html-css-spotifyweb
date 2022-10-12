@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --side-color: black;
+    --main-color: #121212;
+    --ftr-color: #262627;
+    --hvr-color: #1ED760;
+    --txt-color: #878787;
+}
+
+a {
+    text-decoration: none;
+    color: var(--txt-color)
+}
+
+a:hover {
+    color: white;
+    border-bottom: 1px solid #1ED760;
+    
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.top-container {
+
+    flex-grow: 1;
+    display: flex;
+}
+
+.bottom-navbar {
+    flex-shrink: 0;
+    height: 70px;
+    background-color: var(--ftr-color);
+}
+
+.sidebar {
+    width: 60px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--side-color);
+
+}
+
+.sidebar .top-section {
+    flex-shrink: 0;
+}
+
+.sidebar .middle-section {
+    flex-grow: 1;
+    overflow: auto;
+    padding-top: 1rem;
+}
+
+.sidebar .middle-section .playlist-container {
+    display: none;
+    padding: 1rem ;
+}
+
+.square-playlist{
+    padding-right: 6px;
+    font-size: 40px;
+   
+}
+.add-ply{
+    display: flex;
+    align-items: center;
+}
+.playlist-container li {
+    list-style: none;
+    padding: 0.5rem ;
+}
+.playlist-container ul {
+   
+    padding: 0.5rem ;
+}
+.sidebar .bottom-section {
+    flex-shrink: 0;
+
+}
+
+.sidebar .sidebar-list {
+    list-style: none;
+}
+
+.sidebar .sidebar-list .logo-large {
+    display: none;
+    padding-bottom: 1.5rem;
+    width: 9rem;
+}
+
+.sidebar .sidebar-list .logo-small {
+
+    padding-bottom: 1.5rem;
+}
+
+.sidebar .sidebar-list a {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.sidebar .sidebar-list .list-item-text {
+    display: none;
+}
+
+.main-container {
+    background-color: var(--main-color);
+    flex-grow: 1;
+}
+
+.button-upg {
+    border-color: white;
+    background-color: var(--main-color);
+    padding: 1rem 1.5rem;
+    color: white;
+    border-radius: 20px;
+    position: fixed;
+    right: 1%;
+    top: 2%;
+}
+
+.button-upg:hover {
+    background-color: var(--hvr-color);
+    color: black;
+    border-style: none;
+}
