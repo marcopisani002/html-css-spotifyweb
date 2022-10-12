@@ -170,3 +170,37 @@ body {
     width: 80px;
     height: 100%;
 }
+.space-pdg-r-ic{
+    padding-right:  3rem;
+    
+}
+.space-pdg-r{
+    padding-right:  2rem;
+    
+}
+.space-pdg-l{
+    padding-left:  1rem;
+    
+}
+.bar-player
+{
+    align-items: center;
+    display: flex;
+    padding-top: 1rem;
+}
+.bar-playerw
+{
+    border-radius: 30px;
+    border-end-end-radius: 0px;
+    border-top-right-radius: 0px;
+    height: 10px;
+    background-color: white;
+    width: 20%;
+}
+.bar-playerg
+{border-radius: 30px;
+    height: 10px;
+    background-color: gray;
+    width: 70%;
+  
+}
