@@ -11,8 +11,13 @@
     --ftr-color: #262627;
     --hvr-color: #1ED760;
     --txt-color: #878787;
+    --single-color:white;
 }
-
+.single-color
+{
+    color: white;
+    font-weight: bold;
+}
 a {
     text-decoration: none;
     color: var(--txt-color)
@@ -39,8 +44,11 @@ body {
 }
 
 .bottom-navbar {
+    color: var(--txt-color);
+    display: flex;
+    justify-content: space-between;
     flex-shrink: 0;
-    height: 70px;
+    height: 80px;
     background-color: var(--ftr-color);
 }
 
@@ -70,10 +78,13 @@ body {
 
 .square-playlist{
     padding-right: 6px;
-    font-size: 40px;
+    font-size: 30px;
    
 }
-.add-ply{
+.ghost-side{
+    display: none;
+}
+.cnt-flx{
     display: flex;
     align-items: center;
 }
@@ -135,4 +146,9 @@ body {
     background-color: var(--hvr-color);
     color: black;
     border-style: none;
+}
+.img1{
+    padding-left: 1rem;
+    display: block;
+    width:30%;
 }

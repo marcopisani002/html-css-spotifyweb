@@ -4,8 +4,21 @@
         width: 190px;
     }
 
-}
-
+    .add-ply{
+        display: flex;
+        align-items: center;
+    }
+    .playlist-container li {
+        list-style: none;
+        padding: 0.5rem ;
+    }
+    .playlist-container ul {
+       
+        padding: 0.5rem ;
+    }
+    .ghost-side{
+        display: block;
+    }
 .sidebar .middle-section .playlist-container {
     display: block;
 }
@@ -36,7 +49,7 @@
 .sidebar .sidebar-list .list-item-text {
     display: block;
 }
-
+}
 
 /* MD - medium */
 @media screen and (min-width: 768px) {}
