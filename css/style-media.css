@@ -3,7 +3,10 @@
     .sidebar {
         width: 190px;
     }
-
+    .space-pdg-r-ic{
+        padding-right:  3rem;
+        
+    }
     .add-ply{
         display: flex;
         align-items: center;
@@ -48,6 +51,27 @@
 
 .sidebar .sidebar-list .list-item-text {
     display: block;
+}
+.img1 {
+    padding-left: 1rem;
+   
+    display: block;
+    width: 100%;
+    height: 80px;
+    width: 80px;
+    height: 100%;
+}
+.space-pdg-r-ic{
+    padding-right: 3rem;
+    
+}
+.space-pdg-r{
+    padding-right:  1rem;
+    
+}
+.space-pdg-l{
+    padding-left:  1rem;
+    
 }
 }
 
