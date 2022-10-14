@@ -64,7 +64,8 @@ body {
 img{
     width: 100%;
     display: block;
-    margin: auto;
+    margin: 1rem;
+    
     
 }
 
@@ -81,10 +82,7 @@ overflow: auto;
     flex-shrink: 0;
     height: 80px;
     background-color: var(--ftr-color);
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+   overflow: hidden;
   
  
 }
@@ -195,7 +193,7 @@ overflow: auto;
     color: white;
     border-radius: 20px;
     position: fixed;
-    right: 1%;
+    right: 3%;
     top: 2%;
     z-index: 1;
    
@@ -285,7 +283,7 @@ overflow: auto;
   .small-text {
     color: var(--txt-color);
   }
-  .circle.img{
+  .circle-img{
   
     object-fit: cover;
     width: 90%;
