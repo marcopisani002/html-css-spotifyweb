@@ -198,6 +198,7 @@ overflow: auto;
     right: 1%;
     top: 2%;
     z-index: 1;
+   
 }
 
 .button-upg:hover {
@@ -285,7 +286,7 @@ overflow: auto;
     color: var(--txt-color);
   }
   .circle.img{
-    
+  
     object-fit: cover;
     width: 90%;
     border-radius: 50%;
