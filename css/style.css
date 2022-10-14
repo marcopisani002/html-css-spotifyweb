@@ -23,7 +23,22 @@
     color: white;
     font-weight: bold;
 }
+.single-color:hover {
+    color: white;
+    border-bottom: 1px solid #1ED760;
 
+}
+.white:hover {
+    color:var(--hvr-color);
+    
+}
+
+
+.single-color1:hover {
+    color: white;
+    border-bottom: 1px solid #1ED760;
+
+}
 a {
     text-decoration: none;
     color: var(--txt-color)
@@ -49,7 +64,7 @@ body {
 
 
 .top-container {
-
+overflow: auto;
     flex-grow: 1;
     display: flex;
 }
