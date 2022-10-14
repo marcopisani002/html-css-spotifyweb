@@ -61,7 +61,12 @@ body {
     flex-wrap: wrap;
     
 }
-
+img{
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
 
 .top-container {
 overflow: auto;
@@ -80,6 +85,7 @@ overflow: auto;
     bottom: 0%;
     left: 0%;
     right: 0%;
+  
  
 }
 
